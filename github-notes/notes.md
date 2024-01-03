@@ -21,6 +21,10 @@ after adding some files to the current directory, we can add them to the staging
 git add .
 ```
 
+<!-- add a screenshot -->
+
+![alt text](./images/git-add.png)
+
 we can also add a specific file to the staging area by running the following command
 
 ```bash
