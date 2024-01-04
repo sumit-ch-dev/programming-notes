@@ -92,6 +92,41 @@ multiple commit messages can be combined into a single commit message
 git commit -m "commit message #123 #456" -m "commit message #789" -m "commit message #101112"
 ```
 
+### git commit --amend
+
+if we want to change the commit message of the last commit, we can run the following command
+
+```bash
+git commit --amend -m "new commit message"
+```
+
+### git stash
+
+if we want to save the current state of the working directory and the staging area, we can run the following command. This is useful when we want to switch to another branch without committing the changes.
+
+```bash
+git stash
+```
+
+we can also give a name to the stash
+
+```bash
+git stash save "stash name"
+```
+
+we can list all the stashes by running the following command
+
+```bash
+git stash list
+```
+
+we can apply the latest stash by running the following command
+
+```bash
+git stash apply
+```
+
+
 
 ### git push
 
